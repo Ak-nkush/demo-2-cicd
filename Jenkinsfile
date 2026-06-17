@@ -2,6 +2,7 @@ pipeline {
     agent any 
 
     stages {
+        // this is the commit stage , just to check if everything is working fine 
         stage('Build') {
             steps {
                 echo 'Building your application...'
