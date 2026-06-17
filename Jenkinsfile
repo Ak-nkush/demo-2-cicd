@@ -3,6 +3,7 @@ pipeline {
 
     stages {
         // this is the commit stage , just to check if everything is working fine 
+        // this is the another commit that want to see #3 
         stage('Build') {
             steps {
                 echo 'Building your application...'
